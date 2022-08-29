@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #595959;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+  color: #999;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+button {
+  padding: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d3d7;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 160px;
+  gap: 200px;
+  background-color: #f3ffe9;
+  height: 360px;
+}
+
+.title-info-container {
+  width: 500px;
+}
+
+.garden-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.garden-caption {
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+a.sign-up-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: #555;
+  margin-top: 32px;
+  background-color: gold;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.mh-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  gap: 64px;
+  height: 360px;
+}
+
+.assessment-gallery {
+  display: flex;
+  gap: 64px;
+}
+
+.single-assessment-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: center;
+  gap: 16px;
+  width: 120px;
+}
+
+.quote-container {
+  height: 360px;
+  background-color: #f3ffe9;
+}
