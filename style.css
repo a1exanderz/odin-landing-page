@@ -13,7 +13,6 @@ ul {
   display: flex;
   list-style-type: none;
   gap: 32px;
-  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -24,12 +23,10 @@ a {
 p {
   line-height: 2;
   font-size: 16px;
-  font-family: "Poppins", serif;
-  color: #999;
+  color: #636363;
 }
 
 h1 {
-  font-family: "Poppins", serif;
   font-weight: 500;
   font-size: 32px;
 }
@@ -77,8 +74,6 @@ a.sign-up-button {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-
-  font-family: "Poppins", serif;
   font-size: 16px;
   color: #555;
   margin-top: 32px;
@@ -91,7 +86,7 @@ a.sign-up-button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 40px;
   gap: 64px;
   height: 360px;
 }
@@ -110,7 +105,29 @@ a.sign-up-button {
   width: 120px;
 }
 
-.quote-container {
+.question-container {
   height: 360px;
   background-color: #f3ffe9;
+  padding: 36px 160px;
+}
+
+.quote-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-left: 96px;
+}
+
+.quotes {
+  flex-direction: column;
+}
+
+.vertical-line {
+  border-left: 6px solid #999;
+  height: 96px;
+}
+
+.use-goym {
+  font-size: 20px;
+  color: black;
 }
